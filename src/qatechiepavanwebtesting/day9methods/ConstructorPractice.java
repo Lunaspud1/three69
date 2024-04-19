@@ -1,6 +1,5 @@
 package qatechiepavanwebtesting.day9methods;
 
-import java.awt.*;
 
 public class ConstructorPractice {
 

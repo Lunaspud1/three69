@@ -1,19 +1,15 @@
 package qatechiepavanwebtesting.day31;
 
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.zeromq.ZStar;
 
 import java.time.Duration;
 
-import static java.awt.SystemColor.window;
 
 public class ScrollingWebPage {
 
-    public static void main (String args []) throws InterruptedException {
+    public static void main (String [] args) throws InterruptedException {
         System.setProperty("webdriver.gecko.driver", "/home/ademiju/Webdrivers/geckodriver/");
         //WebDriver driver = new FirefoxDriver(); //this is not able to access javascriptexecutor interface
         FirefoxDriver driver = new FirefoxDriver();

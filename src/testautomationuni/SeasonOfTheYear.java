@@ -2,7 +2,6 @@ package testautomationuni;
 
 import java.util.Scanner;
 
-import static javax.swing.text.html.HTML.Tag.I;
 
 public class SeasonOfTheYear {
 
